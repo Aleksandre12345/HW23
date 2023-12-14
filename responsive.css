@@ -1,0 +1,360 @@
+@media (width > 768px) {
+    .hide{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        top: -210px;
+        left: 420px;
+        justify-content: center;
+        align-items: center;
+        width: 183px;
+        height: 152px;
+        border-radius: 16px;
+        background: var(--FFFFFF, #FFF);
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+        position: absolute;
+        color: var(--A445ED, #A445ED);
+        text-align: right;
+        font-family: 'Lora';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    /*                                             arrow cklick javascript  */
+
+
+    .active5{
+        transform: translatey(260px);
+        transition: all 2s;
+    }
+
+
+
+    .mono {
+        width: 36px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .header1 {
+        gap: 485px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .inputdiv {
+        width: 689px;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .input {
+        width: 630px;
+        margin-left: -40px;
+    }
+    .container {
+        width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .keyboarddiv {
+        gap: 330px;
+    }
+    .keyboard {
+        width: 290px;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-left: -20px;
+    }
+    .purplep {
+        width: 100px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -200px;
+    }
+    .playbutton {
+        width: 75px;
+        height: 75px;
+    }
+    .noundiv {
+        gap: 35px;
+    }
+    .noun {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .nounline {
+        width: 608px;
+    }
+    .meaning {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -590px;
+    }
+    .uldiv {
+        margin-left: -15px;
+    }
+    li {
+        width: 641px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .synonymdiv {
+        margin-left: -375px;
+        margin-top: 40px;
+    }
+    .synonyms {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .electkeyboard {
+        width: 190px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .verbdiv {
+        margin-left: -8px;
+    }
+    .verb {
+        width: 48px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .verbline {
+        width: 608px;
+    }
+    .uldiv2 {
+        margin-left: 30px;
+    }
+    .Keyboarding {
+        width: 641px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 65px;
+    }
+    .sourceline {
+        width: 688px;
+    }
+    .srcdiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -365px;
+    }
+    .source {
+        width: 42px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .https {
+        width: 273px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (width > 1440px) {
+    .hide{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        top: -220px;
+        left: 465px;
+        justify-content: center;
+        align-items: center;
+        width: 183px;
+        height: 152px;
+        border-radius: 16px;
+        background: var(--FFFFFF, #FFF);
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.10);
+        position: absolute;
+        color: var(--A445ED, #A445ED);
+        text-align: right;
+        font-family: 'Lora';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+
+    /*                                             arrow cklick javascript  */
+
+
+    .active5{
+        transform: translatey(270px);
+        transition: all 2s;
+    }
+
+
+
+
+    .header1 {
+        gap: 530px;
+    }
+    .mono {
+        width: 36px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .inputdiv {
+        width: 736px;
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .input {
+        width: 670px;
+        margin-left: -40px;
+    }
+    .container {
+        width: 1440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -20px;
+    }
+    .keyboard {
+        width: 270px;
+        margin-left: 5px;
+    }
+    .keyboarddiv {
+        gap: 395px;
+    }
+    .purplep {
+        width: 96px;
+        margin-left: -150px;
+    }
+    .playbutton {
+        width: 75px;
+        height: 75px;
+    }
+    .noundiv {
+        gap: 30px;
+    }
+    .noun {
+        width: 48px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .nounline {
+        width: 656px;
+    }
+    .meaning {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -635px;
+    }
+    .uldiv {
+        margin-left: -12px;
+    }
+    li {
+        width: 689px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .synonymdiv {
+        margin-left: -420px;
+        margin-top: 50px;
+    }
+    .synonyms {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .electkeyboard {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .verbdiv {
+        margin-top: 50px;
+    }
+    .verb {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .verbline {
+        width: 656px;
+    }
+    .uldiv2 {
+        margin-left: 30px;
+    }
+    .Keyboarding {
+        width: 641px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 65px;
+    }
+    .sourceline {
+        width: 736px;
+    }
+    .srcdiv {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: -410px;
+    }
+    .source {
+        width: 42px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .https {
+        width: 273px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }   
+}

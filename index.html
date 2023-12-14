@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="hide">
+            <div onclick="changeFont('monospace')"   id="b1" class="mono1 m11">Mono</div>
+            <div onclick="changeFont('Serif')"       id="b2" class="serif m12">Serif</div>
+            <div onclick="changeFont('Sans-serif')"  id="b3" class="sanserif m13">Sans Serif</div>
+        </div>
+        <div class="header1">
+            <img class="book" src="./assets/iconbookmob.svg">
+            <div class="header2">
+                <p class="mono">Mono</p>
+                <img id="arrow" class="arrow" src="./assets/headerarrow.svg">
+                <div class="rectangle"></div>
+                <div class="togglebutton">
+                    <div class="buttoncircle"></div>
+                </div>
+                <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 10.449C0.998458 12.8283 1.80169 15.1383 3.27914 17.0033C4.75659 18.8683 6.82139 20.1788 9.13799 20.7218C11.4545 21.2647 13.8866 21.0082 16.039 19.994C18.1912 18.9797 19.9373 17.2673 20.9931 15.1352C11.5442 15.1352 6.85799 10.4479 6.85799 1C5.09842 1.87311 3.61767 3.22033 2.58266 4.88981C1.54765 6.5593 0.999502 8.48469 1 10.449Z" stroke="#757575" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </div>
+        </div>
+        <div class="header3">
+            <div class="inputdiv">
+                <form>
+                    <input maxlength="12" class="input" type="text" placeholder="Keyboard">
+                </form>
+                <img class="saerchicon" src="./assets/searchicon.svg">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="keyboarddiv">
+            <div class="txtdiv1">
+                <h1 class="keyboard">keyboard</h1>
+                <p class="purplep">/'ki:bɔ:d/</p>
+            </div>
+            <svg class="playbutton" id="playbutton" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <circle class="playbuttoncircle" opacity="0.25" cx="24" cy="24" r="24" fill="#A445ED"/>
+                <path class="playbuttonpath" fill-rule="evenodd" clip-rule="evenodd" d="M19 18V31L32 24.5L19 18Z" fill="#A445ED"/>
+                </svg>
+        </div>
+        <div class="noundiv">
+            <h5 class="noun">noun</h5>
+            <div class="nounline"></div>
+        </div>
+        <p class="meaning">Meaning</p>
+        <div class="uldiv">
+            <ul>
+                <li class="litxt"></li>
+                <li class="litxt1"></li>
+                <li class="litxt2"></li>
+            </ul>
+        </div>
+        <div class="synonymdiv">
+            <p class="synonyms">Synonyms</p>
+            <p class="electkeyboard"></p>
+        </div>
+        <div class="verbdiv">
+            <h5 class="verb">noun</h5>
+            <div class="verbline"></div>
+        </div>
+        <p class="meaning">Meaning</p>
+        <ul class="uldiv2">
+            <li class="litxt3"></li>
+        </ul>
+        <p class="Keyboarding"></p>
+        <div class="sourceline"></div>
+        <div class="srcdiv">
+            <p class="source">Source</p>
+            <a href="https://en.wiktionary.org/wiki/keyboard" target="_blank" class="https">https://en.wiktionary.org/wiki/keyboard</a>
+        </div>
+    </div>
+
+
+
+
+    <script src="back.js"></script>
+    <script src="java.js"></script>
+</body>
+</html>
